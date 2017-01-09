@@ -52,6 +52,14 @@
             <a href="{{ .Site.Params.soundcloud }}" target="_blank"><img class="icon" src="/img/soundcloud.svg" alt="soundcloud" /></a>
         {{ end }}
 
+        {{ if .Site.Params.telegram }}
+          <a href="{{ .Site.Params.telegram }}" target="_blank"><img class="icon" src="/img/telegram.svg" alt="telegram" /></a>
+        {{ end }}
+
+        {{ if .Site.Params.vk }}
+          <a href="{{ .Site.Params.vk }}" target="_blank"><img class="icon" src="/img/vk.svg" alt="vk" /></a>
+        {{ end }}
+
         {{ if .Site.Params.email }}
             <a href="mailto:{{ .Site.Params.email }}"><img class="icon" src="/img/email.svg" alt="email" /></a>
         {{ end }}
